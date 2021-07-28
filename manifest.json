@@ -1,0 +1,17 @@
+{
+"name": "Recall",
+"description" : "recall",
+"version": "1.0",
+"manifest_version": 2,
+"permissions":[ 
+	"tabs",
+        "storage"],
+"content_scripts":[ {
+    "matches": ["https://lead-ailoshop.ccsystem.net/","https://ailoshop.com/securecheckout/*","https://manager.masvoz.es/"],
+    "js": ["content.js"]
+    }]
+
+   
+     
+}
+
